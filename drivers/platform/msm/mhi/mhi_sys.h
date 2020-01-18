@@ -18,7 +18,7 @@
 #include <linux/sysfs.h>
 #include <linux/delay.h>
 
-#include "mhi.h"
+#include "./../drivers/platform/msm/mhi/mhi.h"
 
 extern enum MHI_DEBUG_LEVEL mhi_msg_lvl;
 extern enum MHI_DEBUG_LEVEL mhi_ipc_log_lvl;

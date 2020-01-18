@@ -16,7 +16,7 @@
 #include <linux/debugfs.h>
 #include <linux/slab.h>
 
-#include "mhi_sys.h"
+#include "./../drivers/platform/msm/mhi/mhi_sys.h"
 
 enum MHI_DEBUG_LEVEL mhi_msg_lvl = MHI_MSG_ERROR;
 

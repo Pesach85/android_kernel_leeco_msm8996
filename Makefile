@@ -14,6 +14,8 @@ NAME = Diseased Newt
 # (this increases performance and avoids hard-to-debug behaviour);
 MAKEFLAGS += -rR
 
+CROSS_COMPILE ?= ./../aarch64-linux-android-4.9/bin/aarch64-linux-android-
+
 # Avoid funny character set dependencies
 unexport LC_ALL
 LC_COLLATE=C
